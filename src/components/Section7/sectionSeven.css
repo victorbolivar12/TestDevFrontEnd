@@ -1,0 +1,47 @@
+.sevenCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    background-color: var(--secondary-color);
+}
+
+.sevenCard>h1{
+    font-size: 56px; 
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sevenCard-container{
+    display: flex; 
+    gap: 5%;
+}
+
+.sevenCard-img{
+    object-fit:fill; 
+    width:300px; 
+    height:400px;
+}
+
+.icon-container{
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+    justify-content: center; 
+    gap: 2%;
+    margin-bottom: 20px;
+}
+.color-white{
+    color: white;
+}
+
+.white-mode{
+    background-color: white;
+    color: black;
+    width: 20%;
+}
+
+.white-mode:hover{
+    background-color: white;
+}

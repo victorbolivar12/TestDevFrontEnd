@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding-top: 2%; 
+    padding-bottom: 2%;
+}
+.footer-description{
+    font-weight: bold; 
+    width:300px; 
+}
+.footer-img{
+    object-fit: fill;
+    height:80px;
+    width:200px 
+}
+.footer-copyright{
+    font-weight: bold; 
+    width:200px; 
+}

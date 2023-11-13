@@ -1,0 +1,58 @@
+.headerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.iconHeadernNav{
+    object-fit: contain;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.routeNav{
+    display: flex;
+    height: 120px;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.routeNav>.route{
+    color: var( --text-color-back);
+    font-weight: bold;
+    font-size: 16px;
+
+    text-decoration: none !important;
+    transition: 0.3s;
+}
+.routeNav>.route:hover{
+    background-color: var(--secondary-color);
+    color: var(--text-color-back);
+}
+.contentNavBody{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.bodyNav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.bodyNavTitle{
+    font-size: 46px;
+    color: var( --text-color-back);
+    font-weight: bold;
+}
+.variant{
+    max-width: fit-content;
+    background-color: white;
+    color: black;
+}
+
+.bodyNavButton{
+    margin-top: 60px;
+    width: 35%;
+}

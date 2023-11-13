@@ -1,0 +1,54 @@
+.secondCard{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.secondCard>h1{
+    font-size: 56px;
+}
+.secondCard>p{
+    width: 50%;
+    text-align:center;
+}
+.secondCardContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btnCard{
+    background-color: var(--primary-color);
+    color: var(--text-color-back);
+    font-size: 26px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.cardImage{
+    object-fit: cover;
+    max-height: 300px;
+    max-width: 600px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.btnSecondCard{
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 36px;
+    padding-right: 36px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    border: solid 1px black;
+}

@@ -1,0 +1,52 @@
+.fourCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.fourCard>h1{
+    margin-top: 90px;
+    font-size: 48px; 
+    font-weight: bold;
+}
+.fourCardContent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+.fourCardFile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnFourCard{
+    padding: 16px;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    font-size: 24px;
+    padding-left: 46px;
+    padding-right: 46px;
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.btnFourCard:hover{
+    background-color: var(--hover-color);
+}
+
+.video{
+    object-fit: cover; 
+    max-width: 250px;
+}
+
+.play-video{
+    position: absolute; 
+    color:white;
+}

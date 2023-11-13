@@ -1,0 +1,93 @@
+.fiveCard{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    background-image: url('./../../assets//Join Us.png');
+    background-size:cover;
+    justify-content: end;
+    height: auto;
+}
+.formFiveCard{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap: 5%;
+}
+.formFiveCard>h1{
+    font-size: 56px; 
+    font-weight: bold; 
+    color: white; 
+    margin:2%;
+    margin-top: 50px;
+}
+.formFiveCard>h2{
+    font-size: 16px; 
+    font-weight: 200; 
+    color: white;
+    margin:2%;
+}
+
+.form{
+    width: 90%;
+}
+
+.form-section{
+    display: flex;
+    gap: 10px;
+}
+.width{
+    width: 95%;
+}
+
+.form-section>input{
+    margin-right: 0px; 
+    width: 100%;
+}
+.inputFormBasic{
+    border: none;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    height: 45px;
+    padding-left: 16px;
+}
+.textarea{
+    height: 120px;
+    padding-top: 16px;
+    width: 95%;
+    resize: none;
+    font-family: var(--text-type);
+    margin-bottom: 20px;
+}
+.img{
+    position:absolute; 
+    width:100%; object-fit:fill; 
+    z-index: -1;
+    max-height: 800px;
+}
+
+.btnStandar{
+    padding: 16px;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    font-size: 24px;
+    padding-left: 46px;
+    padding-right: 46px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 45%;
+    margin-bottom: 20px;
+}
+.btnStandar:hover{
+    background-color: var(--hover-color);
+}
+.form-description{
+    font-size: 16px; 
+    font-weight: 200; 
+    color: white; 
+    margin-top:2%;
+    margin-left: 2%;
+    text-align: center;
+    margin-bottom: 80px;
+}
